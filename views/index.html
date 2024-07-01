@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Metrophobic:700|Metrophobic:400"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="../src/script.js"></script>
+  </head>
+  <body class="bg-background font-metro">
+    <div class="text-navy">
+      <nav class="border-b border-navy sticky top-0 bg-background z-50">
+        <div
+          class="container mx-auto flex justify-between items-center px-6 py-4"
+        >
+          <a href="#" class="hidden sm:block text-2xl font-bold"
+            ><img class="w-24 h-auto" src="../src/img/abc food.png" alt="Logo"
+          /></a>
+          <ul class="flex text-lg">
+            <li>
+              <a
+                href="#home"
+                class="px-4 py-2 hover:bg-navy hover:text-background rounded-md transition duration-300"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="px-4 py-2 hover:bg-navy hover:text-background rounded-md transition duration-200"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#menu"
+                class="px-4 py-2 hover:bg-navy hover:text-background rounded-md transition duration-200"
+                >Menu</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="px-4 py-2 hover:bg-navy hover:text-background rounded-md transition duration-200"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="home" class="container mx-auto my-10">
+        <div
+          class="p-10 border border-navy rounded-md shadow-lg flex flex-col md:flex-row items-center mx-10"
+          style="height: 500px"
+        >
+          <div class="pr-4 md:w-4/5 p-10">
+            <h1 class="font-bold text-3xl mb-4">
+              Welcome to ABC Food - Your Culinary Delight
+            </h1>
+            <p class="text-xl">
+              Makanan bukan hanya sekadar kebutuhan, tetapi juga sumber
+              kebahagiaan dan kesehatan. Oleh karena itu, kami berkomitmen untuk
+              menggunakan bahan-bahan berkualitas tinggi yang segar dan alami
+              dalam setiap hidangan yang kami sajikan.
+            </p>
+            <div class="mt-5">
+              <a
+                href="#about"
+                class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy"
+                >About Me!</a
+              >
+            </div>
+          </div>
+          <div class="hidden md:block pl-4 w-1/4 flex justify-center">
+            <img
+              class="rounded-full h-auto w-64"
+              src="../src/img/abc food.png"
+              alt="profile"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="about" class="container mx-auto my-10">
+        <div class="md:flex items-center">
+          <div
+            class="mx-10 md:ml-10 p-10 border border-navy rounded-md shadow-lg md:w-full"
+          >
+            <h1 class="font-bold text-2xl mb-4 text-center">
+              About ABC FOOD <br />
+              .....
+            </h1>
+            <p class="text-lg">
+              ABC Food adalah perusahaan startup yang bergerak dalam bidang
+              kuliner, didirikan dengan visi untuk menghadirkan makanan lezat
+              dan sehat kepada pelanggan kami. Kami percaya bahwa makanan bukan
+              hanya sekadar kebutuhan, tetapi juga sumber kebahagiaan dan
+              kesehatan. Oleh karena itu, kami berkomitmen untuk menggunakan
+              bahan-bahan berkualitas tinggi yang segar dan alami dalam setiap
+              hidangan yang kami sajikan. <br />
+              <br />
+
+              Dengan tim koki yang berpengalaman dan penuh dedikasi, kami terus
+              berinovasi untuk menciptakan menu yang beragam dan menggugah
+              selera, mulai dari hidangan tradisional hingga modern. Kami juga
+              sangat memperhatikan aspek kesehatan, memastikan setiap hidangan
+              yang kami tawarkan tidak hanya lezat tetapi juga bergizi. <br />
+              <br />
+
+              Layanan pelanggan yang luar biasa adalah prioritas kami. Kami
+              selalu siap mendengarkan masukan dan saran dari pelanggan untuk
+              terus meningkatkan kualitas dan layanan kami. Di ABC Food, kami
+              tidak hanya menjual makanan, tetapi juga menghadirkan pengalaman
+              kuliner yang tak terlupakan. Bergabunglah dengan kami dan nikmati
+              perjalanan kuliner yang memanjakan lidah dan menjaga kesehatan
+              Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="menu"
+        class="container mx-auto my-10 grid grid-cols-1 md:grid-cols-2 gap-7"
+      >
+        <div class="border border-navy rounded-md p-5 mx-10 md:mx-0 md:ml-10">
+          <h1 class="font-bold text-xl mb-2 text-center">
+            Nasi Goreng Spesial <br />
+            ....
+          </h1>
+          <div class="menu-img-container mb-5">
+            <img
+              class="menu-img"
+              src="../src/img/nasi goreng.jpeg"
+              alt="Nasi Goreng"
+            />
+          </div>
+          <p class="text-center">
+            <br />
+            Nasi goreng dengan campuran ayam, udang, dan sayuran segar,
+            dilengkapi dengan telur mata sapi.
+            <br />
+            <br />
+            <span class="font-bold">Harga: Rp 25.000</span> <br />
+          </p>
+          <div class="mt-5 mx-auto">
+            <a
+              href="#"
+              class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+        <div class="border border-navy rounded-md p-5 mx-10 md:mx-0 md:mr-10">
+          <h1 class="font-bold text-xl mb-2 text-center">
+            Salad Ayam Caesar <br />
+            ....
+          </h1>
+          <div class="menu-img-container mb-5">
+            <img
+              class="menu-img"
+              src="../src/img/Salad Ayam Caesar.jpeg"
+              alt="Salad Ayam Caesar"
+            />
+          </div>
+          <p class="text-center">
+            <br />
+            Salad segar dengan potongan ayam panggang, keju parmesan, crouton,
+            dan saus caesar.
+            <br />
+            <br />
+            <span class="font-bold">Harga: Rp 35.000</span> <br />
+          </p>
+          <div class="mt-5 mx-auto">
+            <a
+              href="#"
+              class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+        <div class="border border-navy rounded-md p-5 mx-10 md:mx-0 md:ml-10">
+          <h1 class="font-bold text-xl mb-2 text-center">
+            Sate Ayam Madura <br />
+            <span class="text-sm font-normal">....</span>
+          </h1>
+          <div class="menu-img-container mb-5">
+            <img
+              class="menu-img"
+              src="../src/img/Sate Ayam Madura.jpeg"
+              alt="Sate Ayam Madura"
+            />
+          </div>
+          <p class="text-center">
+            <br />
+            Sate ayam dengan bumbu kacang khas Madura, disajikan dengan lontong
+            dan acar.
+            <br />
+            <br />
+            <span class="font-bold">Harga: Rp 40.000</span> <br />
+          </p>
+          <div class="mt-5 mx-auto">
+            <a
+              href="#"
+              class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+        <div class="border border-navy rounded-md p-5 mx-10 md:mx-0 md:mr-10">
+          <h1 class="font-bold text-xl mb-2 text-center">
+            Pasta Carbonara <br />
+            <span class="text-sm font-normal">....</span>
+          </h1>
+          <div class="menu-img-container mb-5">
+            <img
+              class="menu-img"
+              src="../src/img/Pasta Carbonara.jpeg"
+              alt="Pasta Carbonara"
+            />
+          </div>
+          <p class="text-center">
+            <br />
+            Pasta dengan saus krim, potongan daging asap, dan keju parmesan,
+            disajikan dengan roti bawang.
+            <br />
+            <br />
+            <span class="font-bold">Harga: Rp 50.000</span> <br />
+          </p>
+          <div class="mt-5 mx-auto">
+            <a
+              href="#"
+              class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+        <div class="border border-navy rounded-md p-5 mx-10 md:mx-0 md:ml-10">
+          <h1 class="font-bold text-xl mb-2 text-center">
+            Sup Tom Yum <br />
+            <span class="text-sm font-normal">....</span>
+          </h1>
+          <div class="menu-img-container mb-5">
+            <img
+              class="menu-img"
+              src="../src/img/Sup Tom Yum.jpeg"
+              alt="Sup Tom Yum"
+            />
+          </div>
+          <p class="text-center">
+            <br />
+            Sup pedas khas Thailand dengan campuran udang, jamur, tomat, dan
+            serai, disajikan dengan nasi putih.
+            <br />
+            <br />
+            <span class="font-bold">Harga: Rp 55.000</span> <br />
+          </p>
+          <div class="mt-5 mx-auto">
+            <a
+              href="#"
+              class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+        <div class="border border-navy rounded-md p-5 mx-10 md:mx-0 md:mr-10">
+          <h1 class="font-bold text-xl mb-2 text-center">
+            Smoothie Bowl Berry Blast <br />
+            <span class="text-sm font-normal">....</span>
+          </h1>
+          <div class="menu-img-container mb-5">
+            <img
+              class="menu-img"
+              src="../src/img/Smoothie Bowl Berry Blast.jpeg"
+              alt="Smoothie Bowl Berry Blast"
+            />
+          </div>
+          <p class="text-center">
+            <br />
+            Smoothie kental berbasis buah beri, ditambahkan granola, biji chia,
+            dan potongan buah segar.
+            <br />
+            <br />
+            <span class="font-bold">Harga: Rp 40.000</span> <br />
+          </p>
+          <div class="mt-5 mx-auto">
+            <a
+              href="#"
+              class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div id="contact" class="container mx-auto my-10">
+          <div
+            class="p-10 border border-navy rounded-md shadow-lg flex items-center mx-10"
+          >
+            <div class="pr-4 w-3/4">
+              <h1 class="font-bold text-2xl mb-4">Contact <br /></h1>
+              <p>
+                <span>Email:</span>
+                <span>
+                  <a
+                    class="hover:underline"
+                    target="_blank"
+                    href="mailto:halimml751@gmail.com"
+                    >halimml751@gmail.com</a
+                  >
+                </span>
+              </p>
+              <p>
+                <span>Phone:</span>
+                <span>
+                  <a
+                    class="hover:underline"
+                    target="_blank"
+                    href="tel:+6285156113494"
+                    >+6285156113494</a
+                  >
+                </span>
+              </p>
+              <p>
+                <span>GitHub:</span>
+                <span>
+                  <a
+                    class="hover:underline"
+                    target="_blank"
+                    href="https://github.com/Halim098"
+                    >Halim098</a
+                  >
+                </span>
+              </p>
+              <p>
+                <span>LinkedIn:</span>
+                <span>
+                  <a
+                    class="hover:underline"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/muhammad-kurniawan-halim/"
+                    >Muhammad Kurniawan Halim</a
+                  >
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact" class="container mx-auto my-10">
+            <div
+              class="p-10 border border-navy rounded-md shadow-lg flex items-center mx-10 bg-background"
+            >
+              <form
+                action="mailto:halimml751@gmail.com"
+                method="post"
+                enctype="text/plain"
+                class="w-full"
+                id="contactForm"
+              >
+                <div class="mb-4">
+                    <label class="font-bold text-2xl mb-4">Get In touch <br> ....</label>
+                  <label for="name" class="block font-bold text-xl mb-2"
+                    >Name:</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="w-full border border-navy p-2 rounded-md"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="block font-bold text-xl mb-2"
+                    >Email:</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full border border-navy p-2 rounded-md"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="message" class="block font-bold text-xl mb-2"
+                    >Message:</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="w-full border border-navy p-2 rounded-md"
+                    required
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Send"
+                  class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy mt-4"
+                />
+              </form>
+            </div>
+          </div>
+
+      </footer>
+    </div>
+  </body>
+</html>
