@@ -25,7 +25,7 @@
           class="container mx-auto flex justify-between items-center px-6 py-4"
         >
           <a href="#" class="hidden sm:block text-2xl font-bold"
-            ><img class="w-24 h-auto" src="../src/img/abc food.png" alt="Logo"
+            ><img class="w-24 h-auto" src="src/img/abc food.png" alt="Logo"
           /></a>
           <ul class="flex text-lg">
             <li>
@@ -86,7 +86,7 @@
           <div class="hidden md:block pl-4 w-1/4 flex justify-center">
             <img
               class="rounded-full h-auto w-64"
-              src="../src/img/abc food.png"
+              src="src/img/abc food.png"
               alt="profile"
             />
           </div>
@@ -143,7 +143,7 @@
           <div class="menu-img-container mb-5">
             <img
               class="menu-img"
-              src="../src/img/nasi goreng.jpeg"
+              src="src/img/nasi goreng.jpeg"
               alt="Nasi Goreng"
             />
           </div>
@@ -171,7 +171,7 @@
           <div class="menu-img-container mb-5">
             <img
               class="menu-img"
-              src="../src/img/Salad Ayam Caesar.jpeg"
+              src="src/img/Salad Ayam Caesar.jpeg"
               alt="Salad Ayam Caesar"
             />
           </div>
@@ -199,7 +199,7 @@
           <div class="menu-img-container mb-5">
             <img
               class="menu-img"
-              src="../src/img/Sate Ayam Madura.jpeg"
+              src="src/img/Sate Ayam Madura.jpeg"
               alt="Sate Ayam Madura"
             />
           </div>
@@ -227,7 +227,7 @@
           <div class="menu-img-container mb-5">
             <img
               class="menu-img"
-              src="../src/img/Pasta Carbonara.jpeg"
+              src="src/img/Pasta Carbonara.jpeg"
               alt="Pasta Carbonara"
             />
           </div>
@@ -255,7 +255,7 @@
           <div class="menu-img-container mb-5">
             <img
               class="menu-img"
-              src="../src/img/Sup Tom Yum.jpeg"
+              src="src/img/Sup Tom Yum.jpeg"
               alt="Sup Tom Yum"
             />
           </div>
@@ -283,7 +283,7 @@
           <div class="menu-img-container mb-5">
             <img
               class="menu-img"
-              src="../src/img/Smoothie Bowl Berry Blast.jpeg"
+              src="src/img/Smoothie Bowl Berry Blast.jpeg"
               alt="Smoothie Bowl Berry Blast"
             />
           </div>
@@ -361,61 +361,63 @@
         </div>
 
         <div id="contact" class="container mx-auto my-10">
-            <div
-              class="p-10 border border-navy rounded-md shadow-lg flex items-center mx-10 bg-background"
+          <div
+            class="p-10 border border-navy rounded-md shadow-lg flex items-center mx-10 bg-background"
+          >
+            <form
+              action="mailto:halimml751@gmail.com"
+              method="post"
+              enctype="text/plain"
+              class="w-full"
+              id="contactForm"
             >
-              <form
-                action="mailto:halimml751@gmail.com"
-                method="post"
-                enctype="text/plain"
-                class="w-full"
-                id="contactForm"
-              >
-                <div class="mb-4">
-                    <label class="font-bold text-2xl mb-4">Get In touch <br> ....</label>
-                  <label for="name" class="block font-bold text-xl mb-2"
-                    >Name:</label
-                  >
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="w-full border border-navy p-2 rounded-md"
-                    required
-                  />
-                </div>
-                <div class="mb-4">
-                  <label for="email" class="block font-bold text-xl mb-2"
-                    >Email:</label
-                  >
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="w-full border border-navy p-2 rounded-md"
-                    required
-                  />
-                </div>
-                <div class="mb-4">
-                  <label for="message" class="block font-bold text-xl mb-2"
-                    >Message:</label
-                  >
-                  <textarea
-                    id="message"
-                    name="message"
-                    class="w-full border border-navy p-2 rounded-md"
-                    required
-                  ></textarea>
-                </div>
+              <div class="mb-4">
+                <label class="font-bold text-2xl mb-4"
+                  >Get In touch <br />
+                  ....</label
+                >
+                <label for="name" class="block font-bold text-xl mb-2"
+                  >Name:</label
+                >
                 <input
-                  type="submit"
-                  value="Send"
-                  class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy mt-4"
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="w-full border border-navy p-2 rounded-md"
+                  required
                 />
-              </form>
-            </div>
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block font-bold text-xl mb-2"
+                  >Email:</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full border border-navy p-2 rounded-md"
+                  required
+                />
+              </div>
+              <div class="mb-4">
+                <label for="message" class="block font-bold text-xl mb-2"
+                  >Message:</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  class="w-full border border-navy p-2 rounded-md"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Send"
+                class="bg-navy text-background px-4 py-2 border-2 border-navy rounded-md transition duration-300 hover:bg-background hover:text-navy mt-4"
+              />
+            </form>
           </div>
-
+        </div>
       </footer>
     </div>
   </body>
